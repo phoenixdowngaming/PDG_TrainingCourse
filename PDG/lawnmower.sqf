@@ -7,6 +7,7 @@ _pos5 = getpos lawnmower_5;
 _pos6 = getpos lawnmower_6;
 _pos7 = getpos lawnmower_7;
 _pos8 = getpos lawnmower_8;
+_pos9 = getpos lawnmower_zed;
 
 _rad = 20;
 _objs =  nearestObjects [_pos, [], _rad];
@@ -72,5 +73,10 @@ _objs8 =  nearestObjects [_pos8, [], _rad];
 	};
 } forEach _objs8;
 
-
+_objs9 =  nearestObjects [_pos9, [],15];
+{
+	if (_x != player) then {
+		deleteCollection _x;
+	};
+} forEach _objs9;
 
