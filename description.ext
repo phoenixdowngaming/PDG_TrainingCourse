@@ -1,5 +1,5 @@
 Author = "Teagan";
-onLoadName = "PDG Basic Training - Altis";
+onLoadName = "PDG Basic Training - Malden";
 onLoadMission = "Here, we show you the basics of Arma 3 itself, our mods and our techniques. FALL IN RECRUITS!";
 
 
@@ -17,3 +17,28 @@ showCompass				= 0;// Allow Compass
 showMap					= 1;// Allow Map
 showWatch				= 0;// Allow Watch
 forceRotorLibSimulation	= 0;// Default value: 0 = options based; 1 = force enable; 2 = force disable
+
+#include "defines.hpp"
+#include "dialogs.hpp"
+
+class CfgSounds
+{
+	class ouch_one
+	{
+		name = "ouch_one";
+		sound[] = {"\sounds\ouch_one.ogg",db+15, 1};
+		titles[] = {1, "You shot a hostage!"};
+	};
+    class ouch_two
+	{
+		name = "ouch_two";
+		sound[] = {"\sounds\ouch_two.ogg",db+15, 1};
+		titles[] = {1, "You shot a hostage!"};
+	};
+    class ouch_three
+	{
+		name = "ouch_three";
+		sound[] = {"\sounds\ouch_three.ogg",db+15, 1};
+		titles[] = {1, "You shot a hostage!"};
+	};
+};

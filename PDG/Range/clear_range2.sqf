@@ -2,4 +2,4 @@
 range2_screen setVariable ["shotcount2",0];
 cam2 cameraEffect ["terminate", "Back"];
 camDestroy cam2;
-range2_screen setObjectTexture [0,""];
+range2_screen setObjectTextureGlobal [0,""];

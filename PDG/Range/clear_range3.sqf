@@ -2,4 +2,4 @@
 range3_screen setVariable ["shotcount3",0];
 cam3 cameraEffect ["terminate", "Back"];
 camDestroy cam3;
-range3_screen setObjectTexture [0,""];
+range3_screen setObjectTextureGlobal [0,""];
