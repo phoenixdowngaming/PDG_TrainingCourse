@@ -1,0 +1,1 @@
+createDialog "PDG_Teleport_Menu";
