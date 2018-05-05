@@ -1,6 +1,6 @@
 {_x animate["terc",1]} forEach KHtargets;
 _unit = (list kh_close_trg) select 0;
-
+nopop= false;
 _khcount_close = kh_sign getVariable "KHCount";
 _khmath = _khcount_close / 77;
 _endcheck = floor (time - timecheck);

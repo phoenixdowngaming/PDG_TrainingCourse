@@ -6,7 +6,7 @@ grn_count = 0;
 _sign setVariable ["grn_count",0];
 publicVariable "grn_count";
 
-_time = time + 30;
+_time = time + 60;
 while {time < _time} do 
 	{
 		_gcount = grn_sign getVariable "grn_count";

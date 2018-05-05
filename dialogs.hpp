@@ -37,7 +37,7 @@ class PDG_Teleport_Menu
             tooltip = "Tank-Go-Boom 101"; //--- ToDo: Localize;
             action = "closeDialog 0; _nil = []execVM ""teleport\tele_AT.sqf""";
         };
-        class Button_Pntman: RscButton
+        class Button_203: RscButton
         {
             idc = 1603;
             text = "Teleport to Pointman Course"; //--- ToDo: Localize;
@@ -46,7 +46,7 @@ class PDG_Teleport_Menu
             w = 0.108854 * safezoneW;
             h = 0.0989614 * safezoneH;
             tooltip = "How to Bullet Sponge 101"; //--- ToDo: Localize;
-            action = "closeDialog 0; _nil = []execVM ""teleport\tele_pntman.sqf""";
+            action = "closeDialog 0; _nil = []execVM ""teleport\tele_203.sqf""";
         };
         class Button_KillHouse: RscButton
         {
@@ -59,7 +59,7 @@ class PDG_Teleport_Menu
             tooltip = "More Corners than Tokyo Drift"; //--- ToDo: Localize;
             action = "closeDialog 0; _nil = []execVM ""teleport\tele_killhouse.sqf""";
         };
-        class Button_Grenade: RscButton
+        class Button_Armor: RscButton
         {
             idc = 1605;
             text = "Teleport to Grenade Range"; //--- ToDo: Localize;
@@ -68,7 +68,7 @@ class PDG_Teleport_Menu
             w = 0.108854 * safezoneW;
             h = 0.0989614 * safezoneH;
             tooltip = "Hot Potato but for keeps"; //--- ToDo: Localize;
-            action = "closeDialog 0; _nil = []execVM ""teleport\tele_grenade.sqf""";
+            action = "closeDialog 0; _nil = []execVM ""teleport\tele_armor.sqf""";
         };
         class Button_EOD: RscButton
         {

@@ -41,4 +41,10 @@ class CfgSounds
 		sound[] = {"\sounds\ouch_three.ogg",db+15, 1};
 		titles[] = {1, "You shot a hostage!"};
 	};
+	class sparkNew
+	{
+		name = "sparkNew";
+		sound[] = {"\sounds\sparkNew.ogg",db+3, 1};
+		titles[] = {1, ""};
+	};
 };

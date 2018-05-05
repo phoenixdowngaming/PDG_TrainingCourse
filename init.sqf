@@ -1,7 +1,8 @@
 enableSaving [ false, false ];
 enableRadio false;
 enableSentences false;
-
+missionNameSpace setVariable ["RadioTower",0];
+publicVariable "RadioTower";
 [] execVM "VCOM_Driving\init.sqf";
 [] execVM "PDG\zlt_fieldrepair.sqf";
 [] execVM "PDG\sa_ropes.sqf";
@@ -13,10 +14,7 @@ KHtargets = [
 	k10,k11,k12,k13,k14,k15,k16,k17,k18,k19,
 	k20,k21,k22,k23,k24,k25,k26,k27,k28,k29,
 	k30,k31,k32,k33,k34,k35,k36,k37,k38,k39,
-	k40,k41,k42,k43,k44,k45,k46,k47,k48,k49,
-	k50,k51,k52,k53,k54,k55,/*k56,*/k57,k58,k59,
-	k60,k61,k62,k63,k64,k65,k66,k67,k68,k69,
-	k70,k71,k72,k73,k74,k75,sup_1,sup_2,hostage1,hostage2,hostage3
+	k40,sup_1,sup_2,hostage1,hostage2,hostage3
 	];//label all the KH targets into one single array which makes passing code to each of them MUCH easier than doing it manually one by one
 {_x animate["terc",1]} forEach KHtargets;
 
